@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @question_type.level %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @question_type.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @question_type.description %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @question_type.color %>
+</p>
+
+<%= link_to 'Edit', edit_question_type_path(@question_type) %> |
+<%= link_to 'Back', question_types_path %>
