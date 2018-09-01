@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyText
+  name: MyText
+  lastname: MyText
+  birthday: 2018-09-01
+  gender: MyText
+  country: MyText
+  city: MyText
+
+two:
+  email: MyText
+  name: MyText
+  lastname: MyText
+  birthday: 2018-09-01
+  gender: MyText
+  country: MyText
+  city: MyText

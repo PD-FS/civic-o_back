@@ -25,7 +25,7 @@ development:
   <<: *default
   database: civico
   username: postgres
-  password: 1234
+  password: pasion1946
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -61,7 +61,7 @@ test:
   <<: *default
   database: civico
   username: postgres
-  password: 1234
+  password: pasion1946
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -86,4 +86,4 @@ production:
   <<: *default
   database: civico
   username: postgres
-  password: 1234
+  password: pasion1946
