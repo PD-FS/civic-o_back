@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @question_type2.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @question_type2.description %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @question_type2.color %>
+</p>
+
+<p>
+  <strong>Sn active qt:</strong>
+  <%= @question_type2.sn_active_qt %>
+</p>
+
+<%= link_to 'Edit', edit_question_type2_path(@question_type2) %> |
+<%= link_to 'Back', question_type2s_path %>

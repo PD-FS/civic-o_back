@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  description: MyText
+  color: MyString
+  sn_active_qt: false
+
+two:
+  name: MyText
+  description: MyText
+  color: MyString
+  sn_active_qt: false

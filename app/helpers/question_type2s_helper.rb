@@ -1,0 +1,2 @@
+module QuestionType2sHelper
+end
