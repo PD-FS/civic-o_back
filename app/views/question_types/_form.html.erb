@@ -12,13 +12,8 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :level %>
-    <%= form.number_field :level %>
-  </div>
-
-  <div class="field">
     <%= form.label :name %>
-    <%= form.text_field :name %>
+    <%= form.text_area :name %>
   </div>
 
   <div class="field">
@@ -29,6 +24,11 @@
   <div class="field">
     <%= form.label :color %>
     <%= form.text_field :color %>
+  </div>
+
+  <div class="field">
+    <%= form.label :sn_active_qt %>
+    <%= form.check_box :sn_active_qt %>
   </div>
 
   <div class="actions">

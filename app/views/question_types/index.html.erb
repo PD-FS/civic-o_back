@@ -5,10 +5,10 @@
 <table>
   <thead>
     <tr>
-      <th>Level</th>
       <th>Name</th>
       <th>Description</th>
       <th>Color</th>
+      <th>Sn active qt</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,10 +16,10 @@
   <tbody>
     <% @question_types.each do |question_type| %>
       <tr>
-        <td><%= question_type.level %></td>
         <td><%= question_type.name %></td>
         <td><%= question_type.description %></td>
         <td><%= question_type.color %></td>
+        <td><%= question_type.sn_active_qt %></td>
         <td><%= link_to 'Show', question_type %></td>
         <td><%= link_to 'Edit', edit_question_type_path(question_type) %></td>
         <td><%= link_to 'Destroy', question_type, method: :delete, data: { confirm: 'Are you sure?' } %></td>

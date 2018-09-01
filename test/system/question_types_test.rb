@@ -16,8 +16,8 @@ class QuestionTypesTest < ApplicationSystemTestCase
 
     fill_in "Color", with: @question_type.color
     fill_in "Description", with: @question_type.description
-    fill_in "Level", with: @question_type.level
     fill_in "Name", with: @question_type.name
+    fill_in "Sn Active Qt", with: @question_type.sn_active_qt
     click_on "Create Question type"
 
     assert_text "Question type was successfully created"
@@ -30,8 +30,8 @@ class QuestionTypesTest < ApplicationSystemTestCase
 
     fill_in "Color", with: @question_type.color
     fill_in "Description", with: @question_type.description
-    fill_in "Level", with: @question_type.level
     fill_in "Name", with: @question_type.name
+    fill_in "Sn Active Qt", with: @question_type.sn_active_qt
     click_on "Update Question type"
 
     assert_text "Question type was successfully updated"

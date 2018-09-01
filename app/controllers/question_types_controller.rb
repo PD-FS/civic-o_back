@@ -69,6 +69,6 @@ class QuestionTypesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_type_params
-      params.require(:question_type).permit(:level, :name, :description, :color)
+      params.require(:question_type).permit(:name, :description, :color, :sn_active_qt)
     end
 end

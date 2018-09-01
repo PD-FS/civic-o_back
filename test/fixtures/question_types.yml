@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  level: 1
-  name: MyString
+  name: MyText
   description: MyText
   color: MyString
+  sn_active_qt: false
 
 two:
-  level: 1
-  name: MyString
+  name: MyText
   description: MyText
   color: MyString
+  sn_active_qt: false

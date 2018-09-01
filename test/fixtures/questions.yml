@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  question_type: one
+  txt_desc_question: MyText
+  score_question: 1
+  level: 1
+  sn_active: false
+
+two:
+  question_type: two
+  txt_desc_question: MyText
+  score_question: 1
+  level: 1
+  sn_active: false

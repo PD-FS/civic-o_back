@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Question type:</strong>
+  <%= @question.question_type %>
+</p>
+
+<p>
+  <strong>Txt desc question:</strong>
+  <%= @question.txt_desc_question %>
+</p>
+
+<p>
+  <strong>Score question:</strong>
+  <%= @question.score_question %>
+</p>
+
+<p>
+  <strong>Level:</strong>
+  <%= @question.level %>
+</p>
+
+<p>
+  <strong>Sn active:</strong>
+  <%= @question.sn_active %>
+</p>
+
+<%= link_to 'Edit', edit_question_path(@question) %> |
+<%= link_to 'Back', questions_path %>

@@ -17,7 +17,7 @@ class QuestionTypesControllerTest < ActionDispatch::IntegrationTest
 
   test "should create question_type" do
     assert_difference('QuestionType.count') do
-      post question_types_url, params: { question_type: { color: @question_type.color, description: @question_type.description, level: @question_type.level, name: @question_type.name } }
+      post question_types_url, params: { question_type: { color: @question_type.color, description: @question_type.description, name: @question_type.name, sn_active_qt: @question_type.sn_active_qt } }
     end
 
     assert_redirected_to question_type_url(QuestionType.last)
@@ -34,7 +34,7 @@ class QuestionTypesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should update question_type" do
-    patch question_type_url(@question_type), params: { question_type: { color: @question_type.color, description: @question_type.description, level: @question_type.level, name: @question_type.name } }
+    patch question_type_url(@question_type), params: { question_type: { color: @question_type.color, description: @question_type.description, name: @question_type.name, sn_active_qt: @question_type.sn_active_qt } }
     assert_redirected_to question_type_url(@question_type)
   end
 

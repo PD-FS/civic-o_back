@@ -1,6 +1,6 @@
-class CreateQuestionType2s < ActiveRecord::Migration[5.2]
+class CreateQuestionTypes < ActiveRecord::Migration[5.2]
   def change
-    create_table :question_type2s do |t|
+    create_table :question_types do |t|
       t.text :name
       t.text :description
       t.string :color
